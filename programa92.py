@@ -7,6 +7,7 @@ archivo_nombre = "doc2.txt"
 with open(carpeta_nombre+archivo_nombre, "r") as archivo:
     texto = archivo.read()
 print("...................................................")
+
 palabras_funcionales = nltk.corpus.stopwords.words("spanish")
 for palabras_funcional in palabras_funcionales:
     '''print(palabras_funcional)'''
